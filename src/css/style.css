@@ -1,0 +1,42 @@
+.message_list{
+  margin-left: 30%;
+  margin-top: 5%;
+  font-size: 18px;
+  color: darkgray;
+}
+
+.incoming{
+  margin-bottom: 5px;
+}
+
+.message{
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 1px solid black;
+  width: 65%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.from{
+  margin-right: 25px;
+}
+
+.subject{
+  margin-right: 25px;
+}
+
+.incoming{
+  
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+  
